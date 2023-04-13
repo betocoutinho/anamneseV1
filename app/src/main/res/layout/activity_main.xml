@@ -139,6 +139,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:checked="false"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Masculino" />
 
                 <RadioButton
@@ -146,6 +147,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:checked="true"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Feminino" />
             </RadioGroup>
 
@@ -178,24 +180,28 @@
                     android:id="@+id/rb20"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Menos de 20" />
 
                 <RadioButton
                     android:id="@+id/rb2040"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="20 a 40" />
 
                 <RadioButton
                     android:id="@+id/rb4160"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="41 a 60" />
 
                 <RadioButton
                     android:id="@+id/rbm60"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Mais de 60" />
 
             </RadioGroup>
@@ -214,6 +220,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Sentar na Cadeira" />
 
             <CheckBox
@@ -221,6 +228,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Levantar ou Carregar Pesos" />
 
             <CheckBox
@@ -228,6 +236,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Ficar de Pé" />
 
             <CheckBox
@@ -235,6 +244,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Caminhar" />
 
             <CheckBox
@@ -242,6 +252,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Dirigir" />
 
             <CheckBox
@@ -249,6 +260,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Outros" />
 
             <TextView
@@ -276,6 +288,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Pai" />
 
             <CheckBox
@@ -283,6 +296,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Mãe" />
 
             <CheckBox
@@ -290,6 +304,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Irmão(ã)" />
 
             <CheckBox
@@ -297,6 +312,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="58dp"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Avô/Avó" />
 
             <TextView
@@ -313,6 +329,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Coluna" />
 
             <CheckBox
@@ -320,6 +337,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Coração" />
 
             <CheckBox
@@ -327,6 +345,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Articulação" />
 
             <CheckBox
@@ -334,6 +353,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Hérnia de Disco" />
 
             <CheckBox
@@ -341,6 +361,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Rim" />
 
             <CheckBox
@@ -348,6 +369,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Pulmão" />
 
             <CheckBox
@@ -355,6 +377,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Olhos" />
 
             <CheckBox
@@ -362,6 +385,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Não" />
 
             <EditText
@@ -387,6 +411,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Alcoolismo" />
 
             <CheckBox
@@ -394,6 +419,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Problema Renal" />
 
             <CheckBox
@@ -401,6 +427,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Problema Renal" />
 
             <CheckBox
@@ -408,6 +435,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Anemia" />
 
             <CheckBox
@@ -415,6 +443,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Artrite" />
 
             <CheckBox
@@ -422,6 +451,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Problemas Oculares" />
 
             <CheckBox
@@ -429,6 +459,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Úlcera" />
 
             <CheckBox
@@ -436,6 +467,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Asma" />
 
             <CheckBox
@@ -443,6 +475,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Diabetes" />
 
             <CheckBox
@@ -450,6 +483,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Pressão Arterial" />
 
             <CheckBox
@@ -457,6 +491,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="AVC" />
 
             <CheckBox
@@ -464,6 +499,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Obesidade" />
 
             <CheckBox
@@ -471,6 +507,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Problemas Musculares" />
 
             <CheckBox
@@ -478,6 +515,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:onClick="onCheckboxClicked"
                 android:text="Não" />
 
             <EditText
@@ -516,18 +554,21 @@
                     android:id="@+id/radioButton4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Sempre" />
 
                 <RadioButton
                     android:id="@+id/radioButton5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Algumas Vezes" />
 
                 <RadioButton
                     android:id="@+id/radioButton6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Nunca" />
             </RadioGroup>
 
@@ -549,18 +590,21 @@
                     android:id="@+id/radioButton7"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Sempre" />
 
                 <RadioButton
                     android:id="@+id/radioButton8"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Algumas Vezes" />
 
                 <RadioButton
                     android:id="@+id/radioButton9"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Nunca" />
             </RadioGroup>
 
@@ -582,18 +626,21 @@
                     android:id="@+id/radioButton10"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Sempre" />
 
                 <RadioButton
                     android:id="@+id/radioButton11"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Algumas Vezes" />
 
                 <RadioButton
                     android:id="@+id/radioButton12"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Nunca" />
             </RadioGroup>
 
@@ -611,6 +658,26 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1">
 
+                <RadioButton
+                    android:id="@+id/radioButton39"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="Sempre" />
+
+                <RadioButton
+                    android:id="@+id/radioButton40"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="Algumas Vezes" />
+
+                <RadioButton
+                    android:id="@+id/radioButton41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
+                    android:text="Nunca" />
             </RadioGroup>
 
             <TextView
@@ -631,18 +698,21 @@
                     android:id="@+id/radioButton16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Sempre" />
 
                 <RadioButton
                     android:id="@+id/radioButton17"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Algumas Vezes" />
 
                 <RadioButton
                     android:id="@+id/radioButton18"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Nunca" />
             </RadioGroup>
 
@@ -664,18 +734,21 @@
                     android:id="@+id/radioButton14"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Algumas Vezes" />
 
                 <RadioButton
                     android:id="@+id/radioButton13"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Sempre" />
 
                 <RadioButton
                     android:id="@+id/radioButton15"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Nunca" />
             </RadioGroup>
 
@@ -697,18 +770,21 @@
                     android:id="@+id/radioButton32"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Sempre" />
 
                 <RadioButton
                     android:id="@+id/radioButton33"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Algumas Vezes" />
 
                 <RadioButton
                     android:id="@+id/radioButton34"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Nunca" />
             </RadioGroup>
 
@@ -730,18 +806,21 @@
                     android:id="@+id/radioButton35"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Sempre" />
 
                 <RadioButton
                     android:id="@+id/radioButton36"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Algumas Vezes" />
 
                 <RadioButton
                     android:id="@+id/radioButton37"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Nunca" />
             </RadioGroup>
 
@@ -763,18 +842,21 @@
                     android:id="@+id/radioButton26"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Nunca" />
 
                 <RadioButton
                     android:id="@+id/radioButton27"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Algumas Vezes" />
 
                 <RadioButton
                     android:id="@+id/radioButton28"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Sempre" />
             </RadioGroup>
 
@@ -796,18 +878,21 @@
                     android:id="@+id/radioButton29"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Nunca" />
 
                 <RadioButton
                     android:id="@+id/radioButton30"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Algumas Vezes" />
 
                 <RadioButton
                     android:id="@+id/radioButton31"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Sempre" />
             </RadioGroup>
 
@@ -829,20 +914,36 @@
                     android:id="@+id/radioButton25"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Sempre" />
 
                 <RadioButton
                     android:id="@+id/radioButton24"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Algumas Vezes" />
 
                 <RadioButton
                     android:id="@+id/radioButton23"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:onClick="onRadioButtonClicked"
                     android:text="Nunca" />
             </RadioGroup>
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Button" />
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
 
         </LinearLayout>
     </ScrollView>
